@@ -1,3 +1,4 @@
+import 'package:first_app/view/categories.dart';
 import 'package:first_app/view/dashboard.dart';
 import 'package:first_app/view/homepage.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Dashboard(),
+      home: CategoryScreen(),
     );
   }
 }
